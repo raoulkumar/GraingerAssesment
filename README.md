@@ -6,3 +6,4 @@ For assesment 1 I am working on creating a server where the model is created and
 only calculation from the notebook that will be put into the post function will be 
 
 For assessment 2
+Code is all written using pandas library in python. Did not implement in sqlite yet, however it is my assumption that sqlite would perform these tasks faster than the pandas implementation
