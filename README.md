@@ -11,6 +11,7 @@ I am working on creating a server where the model is created and when a post req
 In the notebook I saved the model to a .sav file using pickle. In the server I will have to load all necessary libraries and load the model using pickle from the created file. Then in the post function I will have to parse the row data into a numpy array where I use the 6 selected features to calculate if the vehicle is in the top25. The np array will then be input into the loaded model and it will output the probability that the vehicle was made by one of the top25 manufacturers.
 
 This will be my first time implementing a python server and I will use this guide as the structure:
+https://blog.anvileight.com/posts/simple-python-http-server/
 https://gist.github.com/nitaku/10d0662536f37a087e1b
 
 For assessment 2
