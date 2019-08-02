@@ -1,6 +1,6 @@
 # GraingerAssesment
 
-So far I have spent almost 4 hours on this assessment and will be returning to complete the final tasks when I have more time.
+So far I have spent about 4 hours on this assessment and will be returning to complete the final tasks when I have more time.
 
 Jupyter notebook has work for both parts of the assessment. 
 
