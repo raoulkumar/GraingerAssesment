@@ -17,6 +17,9 @@ https://blog.anvileight.com/posts/simple-python-http-server/
 
 https://gist.github.com/nitaku/10d0662536f37a087e1b
 
+**To Execute only need to run grainger_server.py
+$python grainger_server.py
+
 For assessment 2
 Code is all written using pandas library in python. Did not implement in sqlite yet, however it is my assumption that sqlite would perform these tasks faster than the pandas implementation
 
