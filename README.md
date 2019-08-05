@@ -20,6 +20,10 @@ https://gist.github.com/nitaku/10d0662536f37a087e1b
 
 **To Execute only need to run grainger_server.py wtih LR_top25_model.sav in the same directory as the script
 
+$ bash run.sh
+
+OR
+
 $ python grainger_server.py
 port number = 8009
 
