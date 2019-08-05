@@ -29,7 +29,14 @@ $ python grainger_server.py
 
 port number = 8009
 
+<h5> Model Quality </h5>
+This model is based upon the features of issue time, plate expiration date, agency, fine amount, and location (latitude & longitude)
 
+Generally speaking these are features that are unlikely to provide any critical information as to which car manufacturer produced the vehicle because none of the features provided in the data are critical to the make of the car. The strengths of this model are that it can be retrained easily with different features that are more relevant to the make of the vehicle if available.
+
+Another way to encode labeled data (non-numeric) is to create one-hot encoding for the vehicles (color, body style, violation, and any other relevant features) and use the one hot encoding to train the model using the information provided from these features.
+
+Overall the model will provide a prediciton on the features utilized to trian, however, it could be improved with better feature selection.
 <h3> Assessment #2 </h3>
 See bottom of data_exploration.ipynb for calculations.
 Code is all written using pandas library in python.
