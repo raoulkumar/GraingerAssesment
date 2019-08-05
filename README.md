@@ -12,6 +12,7 @@ This model has been saved to a local file 'LR_top25_model.sav' so it can be quic
 The server is built to take in JSON data of a corrupted row and output the probabilty the vehicle is made by one of the top 25 manufactuers from the data.
 
 ***The guides below were used to create python server:
+
 This will be my first time implementing a python server and I will use this guide as the structure:
 https://blog.anvileight.com/posts/simple-python-http-server/
 
