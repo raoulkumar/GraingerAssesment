@@ -37,6 +37,10 @@ Generally speaking these are features that are unlikely to provide any critical 
 Another way to encode labeled data (non-numeric) is to create one-hot encoding for the vehicles (color, body style, violation, and any other relevant features) and use the one hot encoding to train the model using the information provided from these features.
 
 Overall the model will provide a prediciton on the features utilized to trian, however, it could be improved with better feature selection.
+
+Also the data that was used to train the model was heavily biased towards vehicles from the top25 manufacturers, with about 4 million vehicles within the top 25 manufacturers and approximately 400 thousand vehicles not made by the top 25 manufacturers.
+
+
 <h3> Assessment #2 </h3>
 See bottom of data_exploration.ipynb for calculations.
 Code is all written using pandas library in python.
