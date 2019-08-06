@@ -5,7 +5,7 @@ So far I have spent about 5 hours on this assessment and will be returning to co
 Jupyter notebook has work for both parts of the assessment. 
 
 <h3> Assessment #1 </h3>
-Using the Jupyter notebook called data_exploration.ipynb I created a linear regression model with a set of features to predict the probability of a vehicle with unknown make is produced by one of the top 25 manufacturers from the data set.
+Using the Jupyter notebook called data_exploration.ipynb I created a logistic regression model with a set of features to predict the probability of a vehicle with unknown make is produced by one of the top 25 manufacturers from the data set.
 
 This model has been saved to a local file 'LR_top25_model.sav' so it can be quickly loaded when running the server.
 
@@ -40,6 +40,8 @@ Overall the model will provide a prediciton on the features utilized to trian, h
 
 Also the data that was used to train the model was heavily biased towards vehicles from the top25 manufacturers, with about 4 million vehicles within the top 25 manufacturers and approximately 400 thousand vehicles not made by the top 25 manufacturers.
 
+
+Additionally there are more complex algorithms that are available to predict the probability the vehicle is made by one of the top 25 manufacturers such as a support vector machine.
 
 <h3> Assessment #2 </h3>
 See bottom of data_exploration.ipynb for calculations.
