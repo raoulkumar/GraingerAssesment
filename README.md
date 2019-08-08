@@ -1,6 +1,6 @@
 # GraingerAssesment
 
-So far I have spent about 5 hours on this assessment and will be returning to complete the final tasks when I have more time.
+So far I have spent about 5 hours on this assessment. A little over 2 hours to complete the notebook to build the model and complete the tasks for assessment #2. And a bit over 2 hours to understand how to build a web server with GET and POST requests, implement the model within the server, test with random data I supplied, and provide necessary documentation.
 
 Jupyter notebook has work for both parts of the assessment. 
 
@@ -46,5 +46,7 @@ Additionally there are more complex algorithms that are available to predict the
 <h3> Assessment #2 </h3>
 See bottom of data_exploration.ipynb for calculations.
 Code is all written using pandas library in python.
+
+I see there is data for the state of the vehicles license plate. Need to figure out how to compare that value to the state the citation was made in. I know of a way to put the address and receive the state but this seems inefficient. Need to look into the agency and see if that provides any data as to where the citation was made. Once this is done, using logical indexing I can see how many rows have the same state between the two features and use that as a percentage to calculate the final task for #2.
 
 Still need to implement sqlite implementation to compare the which method is actually faster
